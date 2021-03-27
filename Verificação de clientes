@@ -1,0 +1,24 @@
+Algoritmo "Verificação de cadastro de clientes"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Diogo Yusuke Iwamoto
+// Data atual  : 27/03/2021
+Var
+// Seção de Declarações das variáveis 
+   salario : real
+   valoraprovado: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ escreva("Digite seu salario")
+ leia(salario)
+ 
+ se (salario >= 1000) e (salario<= 2999.99) entao
+  valoraprovado := salario * 0.30
+  escreval("O cliente se encontra na faixa 1 e pode comprar ate", valoraprovado)
+   fimse
+   
+   se (salario >= 3000) e (salario<= 4999.99) entao
+  valoraprovado := salario * 0.35
+  escreval("O cliente se encontra na faixa 2 e pode comprar ate", valoraprovado)
+   fimse
